@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'iCheaper' target in the 'iCheaper' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import "UIImageView+WebCache.h"
+    #import "UIViewController+KNSemiModal.h"
+    #import "Global/GlobalDefine.h"
+    #import "NavigationController.h"
+    #import "TTCheckNetwork.h"
+    #import "ToolKit.h"
+    #import "DBOperate.h"
+    #import "NotificationBody.h"
+    #import "NetworkNotRegular.h"
+    #import "WXApi.h"
+#endif

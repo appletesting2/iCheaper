@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  iCheaper
+
+  Created by twb on 13-5-6.
+  Copyright (c) 2013年 IBM. All rights reserved.
+*/
+"Main.Searbar.placeholder" = "输入券名、商户名等(数据源于大众点评)";
+"Near.Searbar.placeholder" = "输入商户名、地址等(数据源于大众点评)";
